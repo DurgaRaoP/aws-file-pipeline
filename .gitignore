@@ -1,0 +1,18 @@
+# Test files
+*.txt
+day*.txt
+testfile*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Sensitive vars
+*.tfvars
+*.tfvars.json
+
+# OS
+.DS_Store
+Thumbs.db
