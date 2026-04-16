@@ -7,12 +7,30 @@ testfile*
 .terraform/
 *.tfstate
 *.tfstate.*
-.terraform.lock.hcl
-
-# Sensitive vars
 *.tfvars
 *.tfvars.json
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
-# OS
+# AWS / Credentials
+.env
+credentials
+*.pem
+*.key
+*.pub
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / Editor
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
